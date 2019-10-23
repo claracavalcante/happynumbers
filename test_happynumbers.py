@@ -8,6 +8,5 @@ def test_is_happy_one():
 def test_is_happy_seven():
     assert True == get_happiness_state(7)
 
-def test_is_happy_big_number():
-    seed(1)
-    assert True == get_happiness_state(randint(0, 100))
+def test_is_happy_zero():
+    assert True == get_happiness_state(0)
