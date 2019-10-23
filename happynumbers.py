@@ -1,3 +1,3 @@
 
-def get_happiness_state():
+def get_happiness_state(num):
     return False
